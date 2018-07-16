@@ -246,9 +246,8 @@
 				TargetAttributes = {
 					134E234D1F7C169300E6AEC1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 5DB3B64HFQ;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -474,13 +473,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5DB3B64HFQ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Fassone (2R7VLT6VFB)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dn.media.com.Refract.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firescreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41f25374-730d-4349-b02d-482a18e9aa51";
+				PROVISIONING_PROFILE_SPECIFIER = Firescreen;
 				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -493,13 +496,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5DB3B64HFQ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Fassone (2R7VLT6VFB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Fassone (2R7VLT6VFB)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dn.media.com.Refract.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firescreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41f25374-730d-4349-b02d-482a18e9aa51";
+				PROVISIONING_PROFILE_SPECIFIER = Firescreen;
 				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
