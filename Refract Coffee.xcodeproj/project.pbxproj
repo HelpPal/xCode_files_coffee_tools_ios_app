@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1302EDA61F84A2F600625AB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */; };
+		134E23761F7C17BA00E6AEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134E23691F7C17BA00E6AEC1 /* Assets.xcassets */; };
+		134E23771F7C17BA00E6AEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */; };
+		134E23781F7C17BA00E6AEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134E236C1F7C17BA00E6AEC1 /* Main.storyboard */; };
+		134E23791F7C17BA00E6AEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23701F7C17BA00E6AEC1 /* AppDelegate.m */; };
+		134E237B1F7C17BA00E6AEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23721F7C17BA00E6AEC1 /* main.m */; };
+		134E237F1F7C21CB00E6AEC1 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E237E1F7C21CB00E6AEC1 /* BaseVC.m */; };
+		134E23831F7C21EF00E6AEC1 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23821F7C21EF00E6AEC1 /* HomeVC.m */; };
+		134E23861F7C29B400E6AEC1 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134E23851F7C29B400E6AEC1 /* Slider.swift */; };
+		1355DDD01F8005A4002BFD3C /* GraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDCF1F8005A4002BFD3C /* GraphVC.m */; };
+		1355DDD51F8022E4002BFD3C /* AddDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDD41F8022E4002BFD3C /* AddDataVC.m */; };
+		1355DDD81F802302002BFD3C /* UserRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDD71F802302002BFD3C /* UserRegisterVC.m */; };
+		1355DDDC1F80248E002BFD3C /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */; };
+		1879D5271F86136E0089BD6A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879D5261F86136E0089BD6A /* libsqlite3.tbd */; };
+		1879D5881F864E8C0089BD6A /* CoffeeDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */; };
+		6603A2F32F51464E8CC2EAFE /* libPods-Refract Coffee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		134E234E1F7C169300E6AEC1 /* Refract Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refract Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134E23691F7C17BA00E6AEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		134E236B1F7C17BA00E6AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		134E236D1F7C17BA00E6AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		134E236F1F7C17BA00E6AEC1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		134E23701F7C17BA00E6AEC1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		134E23711F7C17BA00E6AEC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134E23721F7C17BA00E6AEC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134E237D1F7C21CB00E6AEC1 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		134E237E1F7C21CB00E6AEC1 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		134E23811F7C21EF00E6AEC1 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = Home/HomeVC.h; sourceTree = "<group>"; };
+		134E23821F7C21EF00E6AEC1 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = Home/HomeVC.m; sourceTree = "<group>"; };
+		134E23841F7C29B300E6AEC1 /* Refract Coffee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refract Coffee-Bridging-Header.h"; sourceTree = "<group>"; };
+		134E23851F7C29B400E6AEC1 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		1355DDCE1F8005A4002BFD3C /* GraphVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphVC.h; path = Graph/GraphVC.h; sourceTree = "<group>"; };
+		1355DDCF1F8005A4002BFD3C /* GraphVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphVC.m; path = Graph/GraphVC.m; sourceTree = "<group>"; };
+		1355DDD31F8022E4002BFD3C /* AddDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddDataVC.h; path = "Add New/AddDataVC.h"; sourceTree = "<group>"; };
+		1355DDD41F8022E4002BFD3C /* AddDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddDataVC.m; path = "Add New/AddDataVC.m"; sourceTree = "<group>"; };
+		1355DDD61F802302002BFD3C /* UserRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserRegisterVC.h; path = "User Register/UserRegisterVC.h"; sourceTree = "<group>"; };
+		1355DDD71F802302002BFD3C /* UserRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserRegisterVC.m; path = "User Register/UserRegisterVC.m"; sourceTree = "<group>"; };
+		1355DDDA1F80248E002BFD3C /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordVC.h; path = "User Register/ForgotPassword/ForgotPasswordVC.h"; sourceTree = "<group>"; };
+		1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordVC.m; path = "User Register/ForgotPassword/ForgotPasswordVC.m"; sourceTree = "<group>"; };
+		1879D5261F86136E0089BD6A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1879D5861F864E8C0089BD6A /* CoffeeDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeDataCell.h; path = "Custom Cells/CoffeeDataCell.h"; sourceTree = "<group>"; };
+		1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeDataCell.m; path = "Custom Cells/CoffeeDataCell.m"; sourceTree = "<group>"; };
+		18AF1D2F1F84C37C00795879 /* Refract Coffee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refract Coffee-Prefix.pch"; sourceTree = "<group>"; };
+		18AF1D301F84DADD00795879 /* RefractMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefractMacros.h; sourceTree = "<group>"; };
+		285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refract Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refract Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee.release.xcconfig"; sourceTree = "<group>"; };
+		E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Refract Coffee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134E234B1F7C169300E6AEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879D5271F86136E0089BD6A /* libsqlite3.tbd in Frameworks */,
+				6603A2F32F51464E8CC2EAFE /* libPods-Refract Coffee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111CA2B3C2BED405734BD37C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */,
+				5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		134E23451F7C169300E6AEC1 = {
+			isa = PBXGroup;
+			children = (
+				134E23501F7C169300E6AEC1 /* Refract Coffee */,
+				134E234F1F7C169300E6AEC1 /* Products */,
+				111CA2B3C2BED405734BD37C /* Pods */,
+				4A5DDD70480D646FD75BC3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		134E234F1F7C169300E6AEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134E234E1F7C169300E6AEC1 /* Refract Coffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134E23501F7C169300E6AEC1 /* Refract Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				1879D5851F864E690089BD6A /* CustomCells */,
+				134E23681F7C17BA00E6AEC1 /* Storyboard */,
+				134E23731F7C17BA00E6AEC1 /* View Controllers */,
+				134E236E1F7C17BA00E6AEC1 /* Supporting Files */,
+			);
+			path = "Refract Coffee";
+			sourceTree = "<group>";
+		};
+		134E23681F7C17BA00E6AEC1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				134E23691F7C17BA00E6AEC1 /* Assets.xcassets */,
+				134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */,
+				134E236C1F7C17BA00E6AEC1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		134E236E1F7C17BA00E6AEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134E23851F7C29B400E6AEC1 /* Slider.swift */,
+				134E236F1F7C17BA00E6AEC1 /* AppDelegate.h */,
+				134E23701F7C17BA00E6AEC1 /* AppDelegate.m */,
+				1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */,
+				134E23711F7C17BA00E6AEC1 /* Info.plist */,
+				134E23721F7C17BA00E6AEC1 /* main.m */,
+				134E23841F7C29B300E6AEC1 /* Refract Coffee-Bridging-Header.h */,
+				18AF1D2F1F84C37C00795879 /* Refract Coffee-Prefix.pch */,
+				18AF1D301F84DADD00795879 /* RefractMacros.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		134E23731F7C17BA00E6AEC1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDD11F8022B7002BFD3C /* User Register */,
+				134E23801F7C21D400E6AEC1 /* Home */,
+				1355DDCD1F800586002BFD3C /* Graph */,
+				1355DDD21F8022C1002BFD3C /* Add New */,
+				134E237D1F7C21CB00E6AEC1 /* BaseVC.h */,
+				134E237E1F7C21CB00E6AEC1 /* BaseVC.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		134E23801F7C21D400E6AEC1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				134E23811F7C21EF00E6AEC1 /* HomeVC.h */,
+				134E23821F7C21EF00E6AEC1 /* HomeVC.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1355DDCD1F800586002BFD3C /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDCE1F8005A4002BFD3C /* GraphVC.h */,
+				1355DDCF1F8005A4002BFD3C /* GraphVC.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		1355DDD11F8022B7002BFD3C /* User Register */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDD61F802302002BFD3C /* UserRegisterVC.h */,
+				1355DDD71F802302002BFD3C /* UserRegisterVC.m */,
+				1355DDD91F802472002BFD3C /* ForgotPassword */,
+			);
+			name = "User Register";
+			sourceTree = "<group>";
+		};
+		1355DDD21F8022C1002BFD3C /* Add New */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDD31F8022E4002BFD3C /* AddDataVC.h */,
+				1355DDD41F8022E4002BFD3C /* AddDataVC.m */,
+			);
+			name = "Add New";
+			sourceTree = "<group>";
+		};
+		1355DDD91F802472002BFD3C /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDDA1F80248E002BFD3C /* ForgotPasswordVC.h */,
+				1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		1879D5851F864E690089BD6A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				1879D5861F864E8C0089BD6A /* CoffeeDataCell.h */,
+				1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		4A5DDD70480D646FD75BC3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1879D5261F86136E0089BD6A /* libsqlite3.tbd */,
+				E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134E234D1F7C169300E6AEC1 /* Refract Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134E23651F7C169300E6AEC1 /* Build configuration list for PBXNativeTarget "Refract Coffee" */;
+			buildPhases = (
+				3B60AF4364CCF55096DA3EFA /* [CP] Check Pods Manifest.lock */,
+				134E234A1F7C169300E6AEC1 /* Sources */,
+				134E234B1F7C169300E6AEC1 /* Frameworks */,
+				134E234C1F7C169300E6AEC1 /* Resources */,
+				2B81C993C0AD72496DF61E63 /* [CP] Embed Pods Frameworks */,
+				461D4EF084E95EAE6ABD6DBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refract Coffee";
+			productName = "Refract Coffee";
+			productReference = 134E234E1F7C169300E6AEC1 /* Refract Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134E23461F7C169300E6AEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Manvik;
+				TargetAttributes = {
+					134E234D1F7C169300E6AEC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5DB3B64HFQ;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 134E23491F7C169300E6AEC1 /* Build configuration list for PBXProject "Refract Coffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134E23451F7C169300E6AEC1;
+			productRefGroup = 134E234F1F7C169300E6AEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134E234D1F7C169300E6AEC1 /* Refract Coffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134E234C1F7C169300E6AEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E23781F7C17BA00E6AEC1 /* Main.storyboard in Resources */,
+				1302EDA61F84A2F600625AB9 /* GoogleService-Info.plist in Resources */,
+				134E23761F7C17BA00E6AEC1 /* Assets.xcassets in Resources */,
+				134E23771F7C17BA00E6AEC1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B81C993C0AD72496DF61E63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B60AF4364CCF55096DA3EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		461D4EF084E95EAE6ABD6DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134E234A1F7C169300E6AEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355DDD81F802302002BFD3C /* UserRegisterVC.m in Sources */,
+				1355DDD51F8022E4002BFD3C /* AddDataVC.m in Sources */,
+				134E23791F7C17BA00E6AEC1 /* AppDelegate.m in Sources */,
+				1355DDD01F8005A4002BFD3C /* GraphVC.m in Sources */,
+				1355DDDC1F80248E002BFD3C /* ForgotPasswordVC.m in Sources */,
+				134E23831F7C21EF00E6AEC1 /* HomeVC.m in Sources */,
+				1879D5881F864E8C0089BD6A /* CoffeeDataCell.m in Sources */,
+				134E237B1F7C17BA00E6AEC1 /* main.m in Sources */,
+				134E23861F7C29B400E6AEC1 /* Slider.swift in Sources */,
+				134E237F1F7C21CB00E6AEC1 /* BaseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E236B1F7C17BA00E6AEC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		134E236C1F7C17BA00E6AEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E236D1F7C17BA00E6AEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134E23631F7C169300E6AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		134E23641F7C169300E6AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		134E23661F7C169300E6AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5DB3B64HFQ;
+				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dn.media.com.Refract.Coffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		134E23671F7C169300E6AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5DB3B64HFQ;
+				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dn.media.com.Refract.Coffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134E23491F7C169300E6AEC1 /* Build configuration list for PBXProject "Refract Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E23631F7C169300E6AEC1 /* Debug */,
+				134E23641F7C169300E6AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134E23651F7C169300E6AEC1 /* Build configuration list for PBXNativeTarget "Refract Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E23661F7C169300E6AEC1 /* Debug */,
+				134E23671F7C169300E6AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134E23461F7C169300E6AEC1 /* Project object */;
+}

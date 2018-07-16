@@ -1,0 +1,19 @@
+//
+//  Refract Coffee-Prefix.pch
+//  Refract Coffee
+//
+//  Created by Apple on 04/10/17.
+//  Copyright © 2017 Admin. All rights reserved.
+//
+
+#ifndef Refract_Coffee_Prefix_pch
+#define Refract_Coffee_Prefix_pch
+@import Firebase;
+@import FirebaseAuth;
+@import FirebaseDatabase;
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "RefractMacros.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Refract_Coffee_Prefix_pch */
