@@ -14,14 +14,14 @@ PODS:
     - FirebaseInstanceID (~> 1.0)
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseAuth (3.0.6):
     - FirebaseAnalytics (~> 3.4)
-    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (3.4.4):
     - GoogleInterchangeUtilities (~> 1.2)
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseDatabase (3.1.0):
     - FirebaseAnalytics (~> 3.4)
   - FirebaseInstanceID (1.0.8)
@@ -31,13 +31,13 @@ PODS:
   - GoogleToolboxForMac/DebugUtils (2.1.0):
     - GoogleToolboxForMac/Defines (= 2.1.0)
   - GoogleToolboxForMac/Defines (2.1.0)
-  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+  - "GoogleToolboxForMac/NSData+zlib (2.1.0)":
     - GoogleToolboxForMac/Defines (= 2.1.0)
-  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.0):
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.0)":
     - GoogleToolboxForMac/DebugUtils (= 2.1.0)
     - GoogleToolboxForMac/Defines (= 2.1.0)
-    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)
-  - GoogleToolboxForMac/NSString+URLArguments (2.1.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.0)"
   - GTMSessionFetcher/Core (1.1.10)
   - IQKeyboardManager (4.0.7)
   - SVProgressHUD (2.1.2)
@@ -49,6 +49,22 @@ DEPENDENCIES:
   - Firebase/Database
   - IQKeyboardManager
   - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CRRulerControl
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - GoogleInterchangeUtilities
+    - GoogleSymbolUtilities
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   CRRulerControl: b0517d3fe616dc63ad3daedfa37d056c959d877a
@@ -67,4 +83,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3a0a1d135992c7f0e66ce4fb05e7a141adf9bd12
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.2
