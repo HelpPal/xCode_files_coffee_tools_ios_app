@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FIRApp configure];
+    
+    //Make test steps here.
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     UIStoryboard *objStoryBoard=[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     NSString *userId = [[NSUserDefaults standardUserDefaults] valueForKey:USERID];
